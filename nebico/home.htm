@@ -1,0 +1,479 @@
+<!DOCTYPE HTML>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width= 1024">
+    <title>Nebico-Home</title>
+    <meta name="description" content="We are one of the Nepal Largest Brand of pioneer bisuit insdustry of Nepal since 1964. " />
+    <meta name ="keyword" content="Nebico" />
+    <meta name="author" content="Surin Poudel"/>
+    <meta property = "og:title" content="Nebico" />
+    <meta property = "og:site_name" content="Nebico" />
+    <meta property="sitearea" content="site" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.1/css/brands.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.1/css/all.min.css">
+    <link rel="stylesheet" href="STYLE/stylemain.css"> 
+    
+</head>
+<style>
+
+.banner{
+  margin-top: 6.5% !important;
+}
+
+
+
+.text-box {
+    width: 600px;
+    position: absolute;
+    left: 100px;
+    top: 10%;
+    color: rgb(9, 9, 10);
+    animation: textup 8s linear infinite;
+    transform: translateY(100px);
+
+}
+
+.text-box1 {
+    animation-delay: 0s;
+}
+
+.text-box h1 {
+    margin-bottom: 40px;
+    color:whitesmoke
+}
+
+.text-box p {
+    font-size: 16px;
+    line-height: 18px;
+    color: whitesmoke;
+}
+
+.text-box span {
+    background: rgb(237, 164, 29);
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    margin-left: 0;
+}
+
+
+
+
+@keyframes textup {
+    10% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/*end styling for the banner*/
+
+
+/*gradiant styling*/
+#gradiant {
+  width: 100%;
+  /*change to smt so that it will be responsive*/
+  color: white;
+  background: linear-gradient(-45deg, #2f1e6e, #b7d425, #44ba5e, #eb1b1b);
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease-in-out infinite;
+
+}
+
+.media:hover {
+  box-shadow: 0 3px 6px rgba(160, 169, 247, 0.596), 0 3px 6px rgba(107, 99, 217, 0.23);
+  transform: translate(0px, -8px);
+}
+
+@keyframes change {
+  0% {
+      background-position: 0 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+/*end gradiant styling*/
+
+    /*adding media query*/
+ @media (max-width:900px) {
+
+  .text-box {
+      width: 100%;
+      left: 20%;
+      top: 50%;
+      color: black;
+      background-color: aliceblue;
+  }
+
+  .text-box p {
+      display: none;
+  }
+
+  .text-box h1 {
+      margin-bottom: 10px;
+      font-size: 38px;
+      color: rgb(128, 15, 15);
+  }
+  
+.banner{
+  margin-top: 10.5% !important;
+}
+
+
+ }
+  
+
+
+</style>
+<body>
+  
+  <!--adding header--> 
+  <div class="heading headermenu">
+    <div class="wraphead">
+      <div class="leftlogospace"></div>
+      <div class="navlogoblock">
+        <a href="#" class="navlogo">
+          <img src="image/logo/img2.png" class="neb_logo" />
+        </a>
+      </div>
+          
+      <input type="radio" name="slide" id="menu-btn">  
+      <input type="radio" name="slide" id="close-btn">   
+      <ul class="navlinks">
+        <label for="close-btn" class="close-btn mobile-nav-icon">
+          <ion-icon name="close" ></ion-icon>
+        </label>
+        <li class="prod">Products
+          <div class="mega-box mega-box-media">
+        
+            <div class="content content-prod">
+              <div class="row">
+                
+                <ul class="mega-links">
+                  <img src="image/products/biscuit.png"/>
+                  <li class="megalinksprod"><a href="biscuit.htm"><b>Biscuits</b></a>
+                    <ul >
+                      <li><a href="scoconut.htm">Coconut</a></li>
+                      <li><a href="#">Chocolate Cookies Bites</a></li>
+                      <li><a href="butterc.htm">Butter Cookies</a></li>
+                      <li><a href="sdigestive.htm">Digestive</a></li>
+                      <li><a href="#">Khaja</a></li>
+                      <li><a href="saltino.htm">Saltino</a></li>
+                      <li><a href="#">Sesame Cookies Bites</a></li>
+                      <li><a href="arrowroots.htm">Arrowroot</a></li>
+                      <li><a href="trekker.htm">Trekkers Choice</a></li>
+                      <li><a href="#">Glucose</a></li>
+                    </ul>
+                  </li>
+                <ul>
+
+              </div>
+              <div class="row">
+                
+                <ul class="mega-links">
+                  <img src="image/products/conf/lollipop.png"/>
+                  <li class="megalinksprod"><a href="confectionary.htm"><b>Confectionary</b></a>
+                    <ul>
+                      <li><a href="#">Coolers</a></li>
+                      <li><a href="#">Fruit Bar</a></li>
+                      <li><a href="#">Lollipop</a></li>
+                      <li><a href="#">Kachcha mango</a></li>
+                      <li><a href="#">Caramel Cream</a></li>
+                      <li><a href="#">melon candy</a></li>
+                      
+                    </ul>
+                   </li>
+                 </ul>
+               </div>
+               <div class="row">
+                 <ul class="mega-links">
+                   <img src="image/products/cookies/Cashew_01.png"/>
+                   <li class="megalinksprod"><a href="cookies.htm"><b>Cookies</b></a>
+                     <ul>
+                       <li><a href="#">Butter Cookies</a></li>
+                       <li><a href="#">Cashew</a></li>
+                       <li><a href="#">Chocolate Cookies</a></li>
+                       <li><a href="#">Jeera Cookies</a></li>
+                       <li><a href="#">Sugar Free Cookies</a></li>
+                           
+                     </ul>
+                   </li>
+                 </ul>
+               </div>
+               <div class="row"><ul class="mega-links">
+                 <img src="image/products/diet/Nebico Crunchy Corn Flakes new label.png"/>
+                 <li class="megalinksprod"><a href="diet.htm"><b>Diet</b></a>
+                   <ul>
+                           
+                     <li><a href="#">Nebico Chocos Box</a></li>
+                     <li><a href="#">Nebico Crunchy Corn Flakes</a></li>
+                     <li><a href="#">Oatmeal</a></li>
+                           
+                   </ul>
+                 </li>
+               </div>   
+               <div class="row">
+                 <ul class="mega-links">
+                   <img src="image/products/Snacks/mock up.png">
+                   <li class="megalinksprod"><a href="snacks.htm"><b>Snacks</b></a>
+                     <ul>
+                       <li><a href="#">Nebico Chiura</a></li>
+                       <li><a href="#">Nebico Salted Peanuts</a></li>
+                       <li><a href="#">Nebico Cheese Rings</a></li>
+                       
+                       
+                     </ul>
+                   </li>
+                 </ul>
+               </div>    
+                
+               
+              
+            </div>
+          </div>
+        </li>
+        <li> About Us
+          <div class="mega-box mega-box-media">
+        
+            <div class="content">
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a href="overview.htm">Our Overview</a></li>
+                <ul>
+              </div>
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a href="team.htm">Our Team</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li> Careers 
+          <div class="mega-box mega-box-media">
+        
+            <div class="content">
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a href="thinking.htm">Our Thinking</a></li>
+                <ul>
+              </div>
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a href="opportunity.htm">Opportunities</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li> Contact 
+          <div class="mega-box mega-box-media">
+        
+            <div class="content">
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a href="feedback.htm">Consumer Feedback</a></li>
+                <ul>
+              </div>
+         
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a href="office.htm">Our Office</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <label for="menu-btn" class="menu-btn mobile-nav-icon ">
+        <ion-icon name="menu" ></ion-icon>
+      </label>
+    </div>
+  </div>
+<!--end adding header-->
+          
+<div id="carouselExampleControls" class="carousel slide banner" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="image/banner/img1.jpg" alt="First slide">
+      <div class="text-box  text-box1">
+        <h1>Healthy bites, Tasty Biscuits</h1>
+        <span></span>
+        <p>Nebico Private Limited is the pioneer biscuit 
+          industry of Nepal. It was initially under the 
+          name of National Biscuit and Confectionery
+          Private Limited, Kathmandu, Nepal. It was 
+          established in 1964 with the objective of 
+          manufacturing quality biscuits and confectionery 
+          in Nepal.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/banner/img2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/banner/img3.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/banner/img4.jpg" alt="Third slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="image/banner/img5.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+                
+
+<!--adding linear gradiant background-->
+<section id="gradiant">
+    
+  <!--starting media section-->
+  <section id="media" class="mt-5 py-5">
+  <div class=" d-flex justify-content-center align-items-center" id="media-ph">
+    <div class="media badge">
+      <iframe
+      class="col-12"
+      width="400"
+      height="310"
+      src="https://www.youtube.com/embed/xQbvOJa6Pls"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+    </div>
+    <div class=" media badge">
+      <iframe
+      class="col-12"
+      width="400"
+      height="310"
+      src="https://www.youtube.com/embed/KPfXsvSwkJY"
+      allow="autoplay; encrypted-media"
+      frameborder="0"
+      allowfullscreen>
+    </iframe>
+    </div>
+    <div class="media badge">
+      <iframe
+      class="col-12"
+      width="400"
+      height="310"
+      src="https://www.youtube.com/embed/BoGXdZ8kbfY"
+      frameborder="0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+    </div>
+  </div>
+  </section>
+</section>
+<!--ending linear gradiant section-->
+
+
+<!--adding footer-->
+  <footer class="footer-area">
+    <div class="footer-wave-box">
+      <div class="footer-wave footer-animation">
+
+      </div>
+    </div>
+    <div class="main">
+      <div class="footer">
+        <div class="single-footer">
+          <h4>Products</h4>
+          <ul>
+            <li><a href="biscuit.htm"><a>Biscuits</a></li>
+            <li><a href="confectionary.htm"><a>Confectionary</a></li>
+            <li><a href="diet.htm"><a>Diet</a></li>
+            <li><a href="snacks.htm"><a>Snacks</a></li>
+            <li><a href="cookies.htm"><a>Cookies</a></li>
+  
+          </ul>
+            <div class="footer-social">
+              <a href="https://www.facebook.com/nebicobiscuit/"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+              <a href="https://www.youtube.com/watch?v=xQbvOJa6Pls"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+
+            </div> 
+        </div>
+      
+        <div class="single-footer">
+          <h4>About Us</h4>
+          <ul>
+            <li><a href="overview.htm"><a>Our Overview</a></li>
+            <li><a href="team.htm"><a>Our Team</a></li>
+            
+          </ul>
+        </div>
+        <div class="single-footer">
+          <h4>Careers</h4>
+          <ul>
+            <li><a href="thinking.htm"><a>Our Thinking</a></li>
+            <li><a href="opportunity.htm"><a>Opportunities</a></li>
+  
+          </ul>
+        </div>
+        <div class="single-footer">
+          <h4>contact us</h4>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i><a href="">Balaju Industrial District, Balaju</a></li>
+            <li><i class="fas fa-mobile-alt"></i><a href="">977-1-4350527</a></li>
+            <li><i class="fas fa-envelope"></i><a href="">nebico@bisc.wlink.com.np</a></li>
+            <li><i class="fas fa-globe-asia"></i><a href="">www.nebico.com</a></li>
+          </ul>
+        </div>
+        
+      </div>
+      <div class="copy">
+        <p>&copy; 2022 all rights reserved</p>
+        <p>Designed by Surin Poudel</p>
+      </div>
+    </div>
+      
+  </footer>
+<!--end adding footer-->
+
+
+
+
+
+
+
+
+
+  <!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<!--fontawesomr-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.1/js/all.min.js"> </script>
+<!--ionicon-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

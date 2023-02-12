@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+
+p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #1d1d1d;
+}
+
+h5:hover {
+    font-weight: 600;
+}
+
+hr {
+    width: 30px;
+    height: 2px;
+    background-color: #ea1111;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #695959;
+}
+
+.products {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: 0.3s ease;
+}
+
+
+
+.products:hover {
+    transform: translateY(20px);
+}
+
+.products img {
+    transition: 0.3s all;
+}
+
+.products:hover img {
+    opacity: 0.7;
+
+}
+
+.sbiscuit {
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: 0.3s ease;
+    margin-top: 10% !important;
+}
+
+#about_overview {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+    position: relative;
+    padding: 23px;
+    height: auto;
+    background: rgb(47, 46, 46);
+
+}
+
+.abouthead {
+    text-transform: uppercase;
+    padding: 25px;
+    font-size: 14px;
+    color: green;
+}
+
+.ospan {
+    font-size: 48px;
+    color: rgb(111, 104, 104);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.oheading {
+    font-size: 48px;
+    text-align: center;
+    color: #faf3f3;
+    line-height: 47px;
+
+}
+
+.oleft {
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+.oleft p {
+    font-size: 15px;
+    padding: 10px;
+    color: #c2bebe;
+}
+
+.oright-line {
+    margin-left: auto;
+
+}
+
+.odescription {
+    padding: 20px 20px 50px;
+}
+
+@media screen and (max-width:900px) {
+    #about_overview {
+        width: 100%;
+    }
+
+    .oleft {
+        float: center;
+        width: 100%;
+    }
+
+    .oright-line {
+        display: none;
+    }
+
+    .oimg {
+        width: 50% !important;
+        margin-left: 20%;
+    }
+}
+
+@media(max-width:991px) {
+   
+
+    .feedback form {
+        margin-top: 25%;
+    }
+}
+
+@media(max-width:767px) {
+ 
+
+    .feedback form {
+        margin-top: 35%;
+    }
+}
